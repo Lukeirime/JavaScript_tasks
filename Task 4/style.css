@@ -27,3 +27,12 @@
   margin-top: 50px;
   color: #333;
 }
+
+#output {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+  list-style: none;
+  text-decoration: none;
+}
